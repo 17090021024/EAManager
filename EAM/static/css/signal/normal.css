@@ -1,0 +1,122 @@
+﻿section {
+	margin: 20px 0 0 0;
+}
+#symbol {
+	width: 90%;
+	height: 50px;
+	margin: 0 auto 0;
+	display: block;
+	padding-left:35%;
+	font-size:18px;
+}
+.form {
+	border: 1px solid #333;
+	border-top: 0;
+	width: 90%;
+	margin: 20px auto;
+	padding:0 0 20px 0;
+}
+.tabs li {
+	float: left;
+	text-align: center;
+}
+.tabs .dt {
+	font-size: 12px;
+	line-height: 22px;
+	padding: 5px 0 0 0;
+}
+.tab-buy {
+	color: #39f;
+	width: 40%;
+}
+.tab-buy-box {
+	height: 60px;
+	border: 1px solid #333;
+	border-left: 0;
+}
+#buyPrice,#sellPrice {
+	font-size: 20px;
+	font-weight: bold;
+}
+#tpPrice,#slPrice{font-size:16px;}
+.tab-spread {
+	width: 20%;
+	font-size: 12px;
+}
+.tab-spread-box {
+	height: 60px;
+	border-bottom: 1px solid #333;
+	border-top: 1px solid #fff;
+}
+.tab-sell {
+	width: 40%;
+	color:#f93;
+}
+.tab-sell-box {
+	height: 60px;
+	border: 1px solid #333;
+	border-right: 0;
+}
+.boxactive {
+	border-bottom: 1px solid #fff;
+}
+table {
+	margin: 20px 0 0 15px;
+}
+table .c1 {
+	width: 70px;
+	text-align: center;
+}
+table .c2 {
+	width: 140px;
+}
+table .c3 {
+	width: 90px;
+}
+.numinput input {
+	width: 70px;
+	border: 1px solid #666;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+}
+.numinput .minbtn {
+	margin: 10px 5px 0 5px;
+	font-size: 22px;
+	float: left;
+	width: 30px;
+	height: 30px;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	color: #fff;
+	background-color: #609;
+}
+.numinput .minbtn:active {
+	background-color: #306;
+}
+#source {
+	width: 135px;
+	border: 1px solid #666;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+#submit
+{
+	border:0;
+	color:#fff;
+	font-size:20px;
+	width:90%;
+	height:50px;
+	line-height:50px;
+	margin:20px 0 0 5%;
+}
+#submit[disabled]{
+	background-color:#ccc !important;
+}
+.btnbuy{background-color:#09f;}
+.btnsell{background-color:#f93;}
+.btndis{background-color:#666;}

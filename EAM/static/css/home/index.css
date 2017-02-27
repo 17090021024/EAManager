@@ -1,0 +1,25 @@
+﻿.bashboard {
+	height: 100px;
+	background-color: #fef;
+}
+.function {
+}
+.function li {
+	background-color: #000;
+	height: 100px;
+	line-height: 100px;
+	width: 33.33%;
+	float: left;
+}
+.function a {
+	width: 100%;
+	display: block;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+.function a:active {
+	opacity: 0.8;
+}

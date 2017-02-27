@@ -1,0 +1,101 @@
+﻿@{Layout = "~/Views/Shared/_Layout.cshtml";}
+@model EAManager.Models.SignalNormal
+@section head{
+    <link href="/static/css/signal/normal.css" rel="stylesheet" type="text/css" />
+    <script defer src="/static/js/signal/normal.js" type="text/javascript"></script>
+    <title>发布普通信号</title>
+}
+@section body{
+    <div class="page">
+        @{ Html.RenderPartial("header", "发布普通信号"); }
+        <section>
+            <select id="symbol">
+                <option value="">选择货币对</option>
+                @for (int i = 0; i < Model.Signals.Count; i++)
+                {
+                    <option value="@Model.Signals[i]">@Model.Signals[i]</option>
+                }
+            </select>
+        </section>
+        <section class="form">
+            <ul class="tabs">
+                <li class="tab-buy">
+                    <div class="tab-buy-box boxactive">
+                        <div class="dt">
+                            买涨</div>
+                        <div id="buyPrice">
+                            0</div>
+                    </div>
+                </li>
+                <li class="tab-spread">
+                    <div class="tab-spread-box">
+                        <div class="dt">
+                            点差</div>
+                        <div id="spread">
+                            0</div>
+                    </div>
+                </li>
+                <li class="tab-sell">
+                    <div class="tab-sell-box">
+                        <div class="dt">
+                            买跌</div>
+                        <div id="sellPrice">
+                            0</div>
+                    </div>
+                </li>
+            </ul>
+            <div class="cls">
+            </div>
+            <table class="table-tp">
+                <tr>
+                    <td class="c1">止盈点：</td>
+                    <td class="c2 numinput">
+                        <a id="tpReduce" class="minbtn">-</a>
+                        <input id="tpPoint" type="text" value="@Model.DefaultTpPoint" />
+                        <a id="tpPlus" class="minbtn">+</a>
+                    </td>
+                    <td class="c3">
+                        <span id="tpPrice"></span>
+                    </td>
+                </tr>
+            </table>
+            <table class="table-sl">
+                <tr>
+                    <td class="c1">止损点：</td>
+                    <td class="c2 numinput">
+                        <a id="slReduce" class="minbtn">-</a>
+                        <input id="slPoint" type="text" value="@Model.DefalutSlPoint" />
+                        <a id="slPlus" class="minbtn">+</a>
+                    </td>
+                    <td class="c3">
+                        <span id="slPrice"></span>
+                    </td>
+                </tr>
+            </table>
+            <table class="table-wr">
+                <tr>
+                    <td class="c1">胜率(%)：</td>
+                    <td class="c2 numinput">
+                        <a id="wrReduce" class="minbtn">-</a>
+                        <input id="wr" type="text" value="@Model.DefaultWr" />
+                        <a id="wrPlus" class="minbtn">+</a>
+                    </td>
+                    <td class="c3"></td>
+                </tr>
+            </table>
+            <table class="table-source">
+                <tr>
+                    <td class="c1">信号源：</td>
+                    <td class="c2">
+                        <input id="source" type="text" maxlength="20" value="@Model.DefalutSource" />
+                    </td>
+                    <td class="c3"></td>
+                </tr>
+            </table>
+            <button id="submit" class="btnbuy">
+                提交买涨信号</button>
+        </section>
+        <footer class="page-footer">
+        </footer>
+    </div>
+}
