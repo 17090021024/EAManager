@@ -1,4 +1,4 @@
-﻿using Common;
+﻿using EACommon;
 using System;
 
 namespace EAManager.Models

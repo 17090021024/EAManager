@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Web;
 
-namespace Common
+namespace EACommon
 {
     /// <summary>
     /// 加密工具类

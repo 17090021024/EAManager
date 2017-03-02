@@ -6,7 +6,7 @@ using System.Data.OleDb;
 using System.Xml;
 using System.Collections;
 
-namespace Common
+namespace EACommon
 {
     /// <summary>
     /// The SqlHelper class is intended to encapsulate high performance, scalable best practices for 

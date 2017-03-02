@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Common
+namespace EACommon
 {
     public static class JsonHelper
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Web;
 using System.Text.RegularExpressions;
 
-namespace Common
+namespace EACommon
 {
     public static class WebUrlHelper
     {

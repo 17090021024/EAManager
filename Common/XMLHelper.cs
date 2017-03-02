@@ -7,7 +7,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace Common
+namespace EACommon
 {
     public static class XMLHelper
     {

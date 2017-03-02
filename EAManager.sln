@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{064D1C04-2575-4A25-9CC1-2793612828B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EACommon", "Common\EACommon.csproj", "{064D1C04-2575-4A25-9CC1-2793612828B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAManager", "EAM\EAManager.csproj", "{20F14C94-6331-4643-B23E-2FC2BC43BFAE}"
 EndProject

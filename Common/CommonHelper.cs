@@ -5,7 +5,7 @@ using System.Collections.Specialized;
 using System.Runtime.Serialization;
 using System.Threading;
 
-namespace Common
+namespace EACommon
 {
     /// <summary>
     /// 公共方法

@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Drawing.Imaging;
 
-namespace Common
+namespace EACommon
 {
     public static class ImageHelper
     {

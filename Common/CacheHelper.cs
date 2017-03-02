@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Common
+namespace EACommon
 {
     /// <summary>
     /// 本地内存被动缓存

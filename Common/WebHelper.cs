@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Web;
 
-namespace Common
+namespace EACommon
 {
     public static class WebHelper
     {

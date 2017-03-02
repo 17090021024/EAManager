@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using EAManager.Models;
-using Common;
+using EACommon;
 using MySql.Data.MySqlClient;
 
 namespace EAManager.DBAccess

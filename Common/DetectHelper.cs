@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text.RegularExpressions;
 
-namespace Common
+namespace EACommon
 {
     public static class DetectHelper
     {

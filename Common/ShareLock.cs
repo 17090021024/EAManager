@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Common
+namespace EACommon
 {
     /// <summary>
     /// 共享锁v2

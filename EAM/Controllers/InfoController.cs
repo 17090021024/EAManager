@@ -2,7 +2,7 @@
 using System.Web.Mvc;
 using EAManager.DBAccess;
 using EAManager.Models;
-using Common;
+using EACommon;
 
 namespace EAManager.Controllers
 {
